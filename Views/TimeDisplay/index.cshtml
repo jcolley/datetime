@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>DateTime</title>
+    </head>
+    <body>
+        @{
+            var date = DateTime.Now.ToString("MMM, d, yyyy");
+            var time = DateTime.Now.ToString("hh:mmtt");
+        }
+        <div id="header">The current time and date:<div>
+            <h1>@date<br>@time</h1>
+    </body>
+</html>
